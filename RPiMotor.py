@@ -6,6 +6,7 @@ in2 = 23
 en = 25
 temp1=1
 
+GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(in1,GPIO.OUT)
 GPIO.setup(in2,GPIO.OUT)
